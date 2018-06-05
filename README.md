@@ -7,3 +7,25 @@
 - Web 应用脚本
 - 扩展和数据库插件如：MySQL Proxy 和 MySQL WorkBench
 - 安全系统，如入侵检测系统
+
+# 数据类型
+
+8种：nil、boolean、number、string、userdata、function、thread和table
+* string:字符串由单引号或者双引号表示
+
+# 数组
+> 不同于其它语言数组把0作为数组的初始索引，在Lua里表的默认初始索引一般从1开始。
+
+'''lua
+local tb = {'apple','pear','orange'}
+for key,val in pairs(tb) do
+	print('key',key)
+end
+
+--[[返回结果：
+	key 1
+	key 2
+	key 3
+	--]]
+'''
+
