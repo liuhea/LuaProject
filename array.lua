@@ -5,10 +5,10 @@ for i = 0,2 do
 	print(array[i])
 end
 
-local tb = {'apple','ban'}
+--[[local tb = {'apple','ban'}
 
 for key,val in pair(tb)
 	print('key',key..val) 
-end
+end--]]
 
 
